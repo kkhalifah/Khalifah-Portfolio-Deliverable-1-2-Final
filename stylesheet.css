@@ -1,39 +1,39 @@
 /* stylesheet.css */
 /* Style rule for the body element */
 body{
-width: 700px;
+width: 60%;
 margin: 0px auto;
   background-color:white;
   background-image: url(images/chevron/Chevron-LightBlue-2500x2500.png);
    background-size: 50%;
-   background-repeat: no-repeat;
+ï¿½ï¿½ï¿½background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center;
 /* Default font styling */
   font: 10pt Helvetica, Arial, Sans-Serif;
   color:#5d3f25;
-} 
+}
 /* style for the header div */
-#header { 
+#header {
 margin: 30px auto;
 text-align: center;
 background-color: darkcyan;
-width: 500px;
+width: 95%;
 height: 75px;
 padding: 10px 20px 20px 20px;
 border-radius:40px 0px 40px 0px;
 @font-face {
-   font-family: 'flow';
-   src: url('web fonts/flow.woff') format('woff');
-   font-weight: normal;
-   font-style: normal;
+ï¿½ï¿½ï¿½font-family: 'flow';
+ï¿½ï¿½ï¿½src: url('web fonts/flow.woff') format('woff');
+ï¿½ï¿½ï¿½font-weight: normal;
+ï¿½ï¿½ï¿½font-style: normal;
 }
 }
 /* Style rule for the nav div */
 #nav{
   width:300px;
-  margin:25px auto 25px auto;
-  background-color:white;  
+  margin:25px auto;
+  background-color:white;
   border:solid 1px #4c2e16;
   border-radius:10px;
   box-shadow: 0px 2px 2px 3px #004d4d;
@@ -45,7 +45,7 @@ fieldset {
 border-radius: 10px;
 border-color: cyan;
  }
-legend {font-weight:bold; 
+legend {font-weight:bold;
 }
 .title {font-weight: bold;
  }
@@ -83,7 +83,7 @@ border-radius: 4px;
 background-color: #ff08f7;
 padding: 5px;
 }
- 
+
 /* style for h1-h3 elements */
 h1 {font-family: flow, helvetica, arial, sans-serfif;
 font-size: 30pt;
@@ -91,11 +91,13 @@ text-align: center;
 margin: 0px;
 color: white;
 }
-h2 {font-family: flow, helvetica, arial, sans-serfif;
+h2 {
+font-family: flow, helvetica, sans-serfif;
 font-size: 20pt;
 text-align: center;
 margin: 5px;
 color: white;
+width: 99%;
 }
 /* style for the headline 3 */
 h3 {color: darkcyan;
@@ -118,7 +120,7 @@ margin-left: 200px;
 }
 /* style for additional */
 .additional{
-font-family: flow, comic sans ms, monotype corsiva; 
+font-family: flow, comic sans ms, monotype corsiva;
 font-size: 16pt;
 color: darkcyan;
 letter-spacing: 0.02em;
@@ -136,13 +138,17 @@ text-align; center;
 padding: 0px 0px 0px 125px;
 }
 /* style rule for table text */
-table {
+.navbar {
 display: inline;
+list-style-type: none;
 text-align: center;
 font: 11pt Helvetica, Arial, Sans-Serif;
+margin: 0;
+padding: 10px;
 }
-/* style for table padding*/
-td { padding: 0px 14px 0px 0px;
+
+#topnav {
+  padding: 0px 14px 0px 0px;
 }
 /* style for the images */
 /* style for hover images*/
@@ -315,4 +321,3 @@ height: 1300px;
   opacity: .7;
   z-index: -1;
 }
- 
